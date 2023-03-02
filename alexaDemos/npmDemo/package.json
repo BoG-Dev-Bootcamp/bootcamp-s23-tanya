@@ -1,7 +1,7 @@
 {
-  "name": "exer5",
+  "name": "npmdemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quick npm project demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +9,7 @@
   "author": "Alexa Fazio",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^6.9.2"
+    "figlet": "^1.5.2"
   },
-  "type": "module",
-  "devDependencies": {
-    "dotenv": "^16.0.3"
-  }
+  "type": "module"
 }
