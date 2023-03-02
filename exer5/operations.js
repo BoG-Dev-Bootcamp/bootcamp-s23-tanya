@@ -10,7 +10,7 @@ Get a dog from the db based on a specific attribute
 
 */
 const readDog = async (identifier) => {
-
+    const dog = await Dog.findAll(identifier)
 }
 
 /** 
